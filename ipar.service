@@ -1,0 +1,6 @@
+[Unit]
+Description=Xnote IP address recorder
+
+[Service]
+Type=oneshot
+ExecStart=/home/user/bin/ipar.sh

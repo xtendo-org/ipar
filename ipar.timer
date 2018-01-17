@@ -1,0 +1,10 @@
+[Unit]
+Description=Hourly timer for ipar
+After=network.service
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1h
+
+[Install]
+WantedBy=timers.target
